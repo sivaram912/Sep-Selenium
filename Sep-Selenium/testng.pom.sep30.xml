@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+
+		<listener class-name="listeners.Listeners" />
+
+	</listeners>
+
+
+	<test thread-count="5" name="Test">
+		<classes>
+
+				<!-- <class name="sep24_properties_file.Testcases"/> 
+				<class name="sep24_excelEx2.TestCasesonSearch"/> 
+				<class name="sep21_TestNG.Emp"/> 
+				<class name="sep24_properties_file.TestcaseEx2"/> 
+				<class name="sep23_TestNG.DiffTestCases_ByUsingBaseTest"/> 
+				<class name="sep21_TestNG.School"/> 
+				<class name="sep21_TestNG.Student"/> -->
+				
+				<class name="sep29_Testcases.TC_ContactUsPage"/> 
+				<class name="sep29_Testcases.TC_Login"/>
+				
+				<class name="sep29_Testcases.TC_HomePage" />
+
+				<!-- <class name="sep22_TestNGPractice.Logintestcases_TestNG"/> 
+				<class name="sep21_TestNG.NewTest"/> -->
+		
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

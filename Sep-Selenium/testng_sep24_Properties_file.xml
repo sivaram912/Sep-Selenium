@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="P1" />
+			<include name="P2" />
+			<include name="P3" />
+		</run>
+	</groups>
+
+	<test thread-count="5" name="sep24_Properties_file">
+		<classes>
+			<class name="sep24_properties_file.Testcases" />
+			<class name="sep24_properties_file.TestcaseEx2" />
+		</classes>
+	</test> <!-- sep24_Properties_file -->
+</suite> <!-- Suite -->

@@ -1,0 +1,4 @@
+10:19:27.840 [main] DEBUG oct01_Log4J.LogfileImpl - i am from debug
+10:19:27.889 [main] ERROR oct01_Log4J.LogfileImpl - i am from error
+10:19:27.889 [main] INFO  oct01_Log4J.LogfileImpl - i am from info
+10:19:27.890 [main] FATAL oct01_Log4J.LogfileImpl - i am from fatal===
